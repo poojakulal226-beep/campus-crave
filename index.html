@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Crave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Campus Crave</h2>
+
+<label>Class:</label>
+<input type="text" id="className" placeholder="Enter Class">
+
+<label>Name:</label>
+<input type="text" id="studentName" placeholder="Enter Name">
+
+<h3>Select Food</h3>
+<label><input type="checkbox" class="food-item" value="40"> Chicken Fried Rice – ₹40</label><br>
+<label><input type="checkbox" class="food-item" value="50"> Chicken Noodles – ₹50</label><br>
+<label><input type="checkbox" class="food-item" value="20"> Watermelon Juice – ₹20</label><br>
+<label><input type="checkbox" class="food-item" value="20"> Muskmelon Juice – ₹20</label><br>
+
+<h3>Total: ₹<span id="totalAmount">0</span></h3>
+
+<button id="placeOrderBtn">Place Order</button>
+
+<div id="orderInfo"></div>
+
+</body>
+<script src="script.js"></script>
+</html>
